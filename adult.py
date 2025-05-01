@@ -15,7 +15,7 @@ input_details = interpreter.get_input_details()
 output_details = interpreter.get_output_details()
 
 # Judul aplikasi
-st.title("Prediksi Pendapatan (>50K) Berdasarkan Data Sensus")
+st.title("Adult Census Income")
 
 # Input pengguna
 age = st.slider("Umur", 18, 90, 30)
